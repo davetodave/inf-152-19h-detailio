@@ -27,6 +27,7 @@ p {
   color:white;
 }
 
+.container.image-comparison h2,
 .container.landingpage h2{
   margin-top: 6rem;
 }
