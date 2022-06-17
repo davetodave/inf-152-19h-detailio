@@ -20,8 +20,12 @@
   color:white;
 }
 
-.container.landingpage h2 {
+.container.landingpage h2{
   margin-top: 6rem;
+}
+
+.container.landingpage h4{
+  margin-top: 11.5rem;
 }
 
 .container.landingpage {
@@ -63,4 +67,5 @@
     transform: scale(1.05);
     color: white!important;
     background-color: black;
+    text-decoration: none;
 }
