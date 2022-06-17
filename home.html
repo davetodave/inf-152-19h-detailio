@@ -9,35 +9,105 @@
 	<!--jQuery-->
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-	<link rel="stylesheet" href="style.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+	<!-- Iconfy Icons-->
+	<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/nav.css">
+	<link rel="stylesheet" href="styles/footer.css">
+
+	<!--Scripts-->
 	<script src="script.js"></script>
 </head>
 <body>
-	<header class="">
-		<div class="container">
+	<input type="checkbox" id="active">
+	<label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+		<div class="wrapper">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Bilder</a></li>
+				<li><a href="#">Video</a></li>
+				<li><a href="#">Livestream</a></li>
+			</ul>
+		</div>
+
+		<section class="header-image">
+			<img src="images/davide_edited_3.jpg">
+			<div class="container">
+				<div class="row">
+					<div class="col-10 offset-1 offset-sm-0 col-sm-10 col-md-7">
+						<h1>Projektarbeit Detailio</h1>
+
+						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+		<div class="container landingpage">
 			<div class="row">
 				<div class="col-12">
-					<label class="d6o-menu" for="check">
-				      <input type="checkbox" id="check"/> 
-				      <span></span>
-				      <span></span>
-				      <span></span>
-				    </label>
+					<h2>Bildvergleich</h2>
+					<p>Picusm Lorem Ipsum</p>
+					<a class="button-transparent">Jetzt Vergleichen</a>
 				</div>
-				
+				<div class="col-12">
+					<h2>Video</h2>
+					<p>Picusm Lorem Ipsum</p>
+					<a class="button-transparent">Jetzt Ansehen</a>
+				</div>
+				<div class="col-12">
+					<h2>Livestream</h2>
+					<p>Picusm Lorem Ipsum</p>
+					<a class="button-transparent">Jetzt Zusehen</a>
+				</div>
 			</div>
 		</div>
-	</header>
 
-	<nav class="d6o-nav d6o-hidden">
-		<ul>
-    		<li class="active"><a href="pages/pictures.html">Bilder</a></li>
-    		<li><a href="pages/video.html">Video</a></li>
-    		<li><a href="pages/livestream.html">Livestream</a></li>
-		</ul>
-	</nav>
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+
+
+	<div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Bildvergleich</a></li>
+                            <li><a href="#">Video</a></li>
+                            <li><a href="#">Livestream</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Über uns</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Detailio</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="iconify" data-icon="bxl:facebook"></i></a><a href="#"><span class="iconify" data-icon="akar-icons:twitter-fill"></span></a><a href="#"><span class="iconify" data-icon="ion:logo-snapchat"></span></a><a href="#"><span class="iconify" data-icon="akar-icons:instagram-fill"></span></a></div>
+                </div>
+                <p class="copyright">Detailio © 2022</p>
+            </div>
+        </footer>
+    </div>
+
+
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
