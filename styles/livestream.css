@@ -1,1 +1,4 @@
-livestream.css
+.livestream iframe {
+	width: 100%;
+	height: 725px;
+}
