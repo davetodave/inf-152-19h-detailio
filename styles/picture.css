@@ -2,7 +2,7 @@
 .image-container .background-img1 {
   background-image: url("../images/davide_edited_1.jpg");
 }
-.image-container .foreground-img1 {
+.image-container .img.foreground-img1 {
   background-image: url("../images/davide_1.jpg");
   width: 50%;
 }
@@ -10,7 +10,7 @@
 .image-container .background-img2 {
   background-image: url("../images/davide_edited_2.jpg");
 }
-.image-container .foreground-img2 {
+.image-container .img.foreground-img2 {
   background-image: url("../images/davide_2.jpg");
   width: 50%;
 }
@@ -18,7 +18,7 @@
 .image-container .background-img3 {
   background-image: url("../images/davide_edited_3.jpg");
 }
-.image-container .foreground-img3 {
+.image-container .img.foreground-img3 {
   background-image: url("../images/davide_3.jpg");
   width: 50%;
 }
@@ -26,7 +26,7 @@
 .image-container .background-img4 {
   background-image: url("../images/1_dominic_edited.jpg");
 }
-.image-container .foreground-img4 {
+.image-container .img.foreground-img4 {
   background-image: url("../images/1_dominic_original.jpg");
   width: 50%;
 }
@@ -34,7 +34,7 @@
 .image-container .background-img5 {
   background-image: url("../images/2_dominic_edited.jpg");
 }
-.image-container .foreground-img5 {
+.image-container .img.foreground-img5 {
   background-image: url("../images/2_dominic_original.jpg");
   width: 50%;
 }
@@ -42,7 +42,7 @@
 .image-container .background-img6 {
   background-image: url("../images/3_dominic_edited.jpg");
 }
-.image-container .foreground-img6 {
+.image-container .img.foreground-img6 {
   background-image: url("../images/3_dominic_original.jpg");
   width: 50%;
 }
@@ -50,7 +50,7 @@
 .image-container .background-img7 {
   background-image: url("../images/philippe_edited_1.jpg");
 }
-.image-container .foreground-img7 {
+.image-container .img.foreground-img7 {
   background-image: url("../images/philippe_1.jpg");
   width: 50%;
 }
@@ -58,7 +58,7 @@
 .image-container .background-img8 {
   background-image: url("../images/philippe_edited_2.jpg");
 }
-.image-container .foreground-img8 {
+.image-container .img.foreground-img8 {
   background-image: url("../images/philippe_2.jpg");
   width: 50%;
 }
@@ -66,7 +66,7 @@
 .image-container .background-img9 {
   background-image: url("../images/philippe_edited_3.jpg");
 }
-.image-container .foreground-img9 {
+.image-container .img.foreground-img9 {
   background-image: url("../images/philippe_3.jpg");
   width: 50%;
 }
