@@ -73,18 +73,7 @@
             // Update the position of the slider button
             $('.slider-button9').css('left', `calc(${sliderPos9}% - 18px)`)
         });
-
-
-
         
-    });
-
-    $(window).load(function(){
-
-    });
-
-    $(window).scroll(function(){
-
     });
 
 })($);
