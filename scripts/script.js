@@ -59,10 +59,10 @@
     toggleRootClass();
   });
 
-  console.log(localStorage.getItem("light-mode"));
+  //console.log(localStorage.getItem("light-mode"));
 
   $(window).scroll(function(){
-    console.log(localStorage.getItem("light-mode"));
+    //console.log(localStorage.getItem("light-mode"));
   });
 
 })($);
