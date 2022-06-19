@@ -184,7 +184,10 @@
   }
 
   .picture-comparison {
-  	width: 100%
+    width:100%;
+  }
+  .picture-comparison tr th:nth-of-type(2) {
+    float:right;
   }
 
   .image-comparison h2 {
@@ -224,5 +227,8 @@
   }
   .image-comparison p {
     margin-bottom: 1rem;
+  }
+  .picture-comparison {
+    width: 100%;
   }
 }
