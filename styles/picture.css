@@ -74,10 +74,16 @@
   .container.image-comparison {
     display: none;
   }
+  #screen-too-small {
+    margin-top: 4em;
+  }
 
 }
 /* Enter Images here end */
 @media (min-width: 768px) {
+  #screen-too-small {
+    display: none;
+  }
   .container.image-comparison {
     display: inherit;
   }

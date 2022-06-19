@@ -13,7 +13,7 @@
     height: 100%;
     width: 100%;
     background: linear-gradient(375deg, rgba(254, 95, 85,0.97), rgba(119, 125, 167,0.97));
-    clip-path: circle(25px at calc(100% - 45px) 45px);
+    clip-path: circle(0px at calc(100% - 45px) 45px);
     transition: all 0.3s ease-in-out;
     z-index: 1;
   }

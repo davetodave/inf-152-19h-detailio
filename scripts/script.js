@@ -23,10 +23,9 @@
 
       return objDeferred;
     }
-    
-    
-    
+
   });
+
 
   /*$(window).load(function(){
 
